@@ -3,7 +3,9 @@ Ans. Semantic HTML involves use of tags which breaks up the webpage into meaning
 main content, address/contact information and footer. Use of semantic HTML helps convey meaningful information to the browsers.
 _________________________________________________________________________________________________________________________________
 
-2. What is HTML used for? 
+2. What is HTML used for?
+Ans. HTML is used to incorporate/embed content into a webpage such as text, video, images and audio. 
+_________________________________________________________________________________________________________________________________
 
 3. What is an attribute and where do we put it? 
 4. What is the h1 tag used for? How many times should I use it on a page?
