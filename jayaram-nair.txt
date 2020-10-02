@@ -8,6 +8,11 @@ Ans. HTML is used to incorporate/embed content into a webpage such as text, vide
 _________________________________________________________________________________________________________________________________
 
 3. What is an attribute and where do we put it? 
+Ans. Attributes provide additional information concerning the elements. Attributes are included in name/value pair format such as
+name="value". Some examples of attributes are: src attribute, in case of image, which specifies location of the image. href attribute, 
+in case of anchor tag, which specifies which website should be opened when the tag is clicked.
+_________________________________________________________________________________________________________________________________
+
 4. What is the h1 tag used for? How many times should I use it on a page?
 5. Name two tags that have required attributes
 6. What do we put in the head of our HTML document? 
