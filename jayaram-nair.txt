@@ -26,6 +26,10 @@ a tag requires href attribute which upon clicking takes us to the destination ur
 _____________________________________________________________________________________________________________________________________
 
 6. What do we put in the head of our HTML document? 
+Ans. Elements which are usually included in the head tag are title, meta tag which provides information regarding the character section
+and link tag which links to the stylesheets used for styling/designing the webpage.
+
+_______________________________________________________________________________________________________________________________________
 7. What is an id? 
 8. What elements can I add an id to? 
 9. How many times can I use the same id on a page? 
