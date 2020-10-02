@@ -18,6 +18,13 @@ Ans. h1 tag is used for main heading of the webpage such as blog name or company
 __________________________________________________________________________________________________________________________________
 
 5. Name two tags that have required attributes
+Ans. a tag and img tag have required attributes. 
+img tag requires two attributes which are src and alt. src specifies location of the image and 
+alt provides a description of the image which can be read by screen readers.
+
+a tag requires href attribute which upon clicking takes us to the destination url. 
+_____________________________________________________________________________________________________________________________________
+
 6. What do we put in the head of our HTML document? 
 7. What is an id? 
 8. What elements can I add an id to? 
