@@ -14,6 +14,9 @@ in case of anchor tag, which specifies which website should be opened when the t
 _________________________________________________________________________________________________________________________________
 
 4. What is the h1 tag used for? How many times should I use it on a page?
+Ans. h1 tag is used for main heading of the webpage such as blog name or company name. Ideally, only one h1 tag should be used per webpage.
+__________________________________________________________________________________________________________________________________
+
 5. Name two tags that have required attributes
 6. What do we put in the head of our HTML document? 
 7. What is an id? 
