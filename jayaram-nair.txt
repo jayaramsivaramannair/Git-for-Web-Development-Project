@@ -1,5 +1,10 @@
 1. What is Semantic HTML? 
+Ans. Semantic HTML involves use of tags which breaks up the webpage into meaningful sections such as heading, navigation menu,
+main content, address/contact information and footer. Use of semantic HTML helps convey meaningful information to the browsers.
+_________________________________________________________________________________________________________________________________
+
 2. What is HTML used for? 
+
 3. What is an attribute and where do we put it? 
 4. What is the h1 tag used for? How many times should I use it on a page?
 5. Name two tags that have required attributes
