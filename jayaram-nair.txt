@@ -140,12 +140,25 @@ Ans. Typing ls on the command line will list all the files/folders in my current
 regarding the files in my directory such as read/write access, date of last modification, size of the file/folder etc.
 __________________________________________________________________________________________________________________________________________________
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
-Ans. Typing 'rm file_name' will remove the specified file. We need to careful because one the said file has been deleted, we cannot recover it.
+Ans. Typing 'rm file_name' will remove the specified file. We need to be careful because once the said file has been deleted, we cannot recover it.
 ___________________________________________________________________________________________________________________________________________
 34. Why should I use version control? 
+Ans. Version control has several important benefits. Benefits are as below:
+(a) Collaboration - It allows multiple team members to work on the same file without any conflict. Any changes thus made can be merged at a later stage.
+(b) Multiple Versions - It saves multiple versions of files during project development. Thus, it keeps track of changes which were made between each version.
+(c) Restoring Work - If we mess up our work then we can easily identify a point to which we would like to go back and start again. 
+(d) Backup - It serves as a backup thus if anything were to happen to the project files stored on the remote repository, we can easily recover the work from 
+copies stored on members' local repositories. 
+_____________________________________________________________________________________________________________________________________________________
 35. How often should I commit to github?
-36. What is the command we would use to push our repo up to github? 
+Ans. As a beginner, we should make commits whenever we make any change to the project file even if its a small change such as fixing a typo. 
+______________________________________________________________________________________________________________________________________________________
+36. What is the command we would use to push our repo up to github?
+Ans. We would simply type 'git push -u origin master' if we want to push it to the master. 
+But if we are working on the branch, we would simply type 'git push -u branch_name'.
+_________________________________________________________________________________________________________________________________________________________
 37. Walk me through Lambda's git flow. 
+Ans. 
 
 Stretch Questions
 
