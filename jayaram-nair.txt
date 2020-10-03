@@ -52,6 +52,8 @@ ________________________________________________________________________________
 Ans. classes can be added to any elements within the body of a HTML document. 
 __________________________________________________________________________________________________________________________
 12. How many times can I use the same class on a page? 
+Ans. There is no limit to the times for usage of the same class within a HTML document. 
+____________________________________________________________________________________________________________
 13. How do I get my link to open in a new tab?
 14. What is the alt attribute in the image tag used for? 
 15. How do I reference an id?
