@@ -62,8 +62,14 @@ Ans. The alt attribute in the image tag is used for providing alternate descript
 when the web user uses a screen reader. 
 _____________________________________________________________________________________________________________________
 15. How do I reference an id?
+Ans. An id is referenced by using the hash(#) symbol immediately before the id name. 
+____________________________________________________________________________________________________________________
 16. What is the difference between a section and a div
+Ans. section is a semantic html tag. It conveys more information since it is used to group the main content on a webpage 
+whereas div does not provide any valuable information.
+______________________________________________________________________________________________________________________
 17. What is CSS used for? 
+
 18. How to we select an element? Example - every h2 on the page
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
 20. How do we select classes in CSS?
