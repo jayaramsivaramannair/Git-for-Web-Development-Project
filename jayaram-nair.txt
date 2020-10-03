@@ -69,8 +69,13 @@ Ans. section is a semantic html tag. It conveys more information since it is use
 whereas div does not provide any valuable information.
 ______________________________________________________________________________________________________________________
 17. What is CSS used for? 
-
+Ans. CSS stands for Cascading Style Sheets. It is used to style the webpage by applying properties to the elements such as background-color, 
+color(used to text), border, margin etc. 
+___________________________________________________________________________________________________________________________
 18. How to we select an element? Example - every h2 on the page
+Ans. We select an element by simplying specifying the element name such as h2, p, img, a followed by curly braces {}.
+Within curly braces, we would specify the properties along with corresponding values which need to applied to the said element. 
+____________________________________________________________________________________________________________________________
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
 20. How do we select classes in CSS?
 21. How do we select a p element with a single class of “human””?
