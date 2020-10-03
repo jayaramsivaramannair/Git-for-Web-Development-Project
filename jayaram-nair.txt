@@ -194,5 +194,4 @@ Ans. 3 elements which are displayed block by default are headings (i.e. h1 to h6
 There are no elements which are displayed inline-block by default. We need to provide the value 'inline-block' to 'display' property 
 in order to make them display as inline-block.
 --------------------------------------------------------------------------------------------------------------
-
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
