@@ -45,7 +45,12 @@ ________________________________________________________________________________
 Ans. An id can be used/assigned only once per webpage.
 _____________________________________________________________________________________________________________________________________
 10. What is a class? 
+Ans. A class is used to provide an identification to a HTML element or a group of related HTML elements. 
+This class can thus be used by CSS for styling or by Javascript for manipulation. 
+_________________________________________________________________________________________________________________________________
 11. What elements can I add a class to? 
+Ans. classes can be added to any elements within the body of a HTML document. 
+__________________________________________________________________________________________________________________________
 12. How many times can I use the same class on a page? 
 13. How do I get my link to open in a new tab?
 14. What is the alt attribute in the image tag used for? 
