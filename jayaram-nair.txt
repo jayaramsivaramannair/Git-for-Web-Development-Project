@@ -88,8 +88,27 @@ Ans. Classes can be selected in CSS by preceding the class name by a period. For
 selected in CSS by specifying .container
 _____________________________________________________________________________________________________________________________
 21. How do we select a p element with a single class of “human””?
+Ans. We can select a p element with a class of "human" by specifying [p .human] Note: square brackets are not be included while selecting the element.
+______________________________________________________________________________________________________________________________
 22. What is a parent child selector? When would this be useful? 
+Ans. 'parent > child' selector is used for selecting only elements which are direct children of the said parent. This helps us be more specific and apply
+the style to only direct descendants but not descendants further down the tree such as grand-children.
+
+<div>
+    <a href="index.html"></a>
+    <ul>
+        <li><a href="home.html></a></li>
+        <li><a href="cookies.html></a></li>
+        <li><a href="cakes.html></a></li>
+    </ul>
+</div>
+
+In this case, div>a will only apply the styling to the 'a' tag which is the direct descendant of the div element and not to the 'a' tags enclosed within 
+the unordered list (ul) tag.
+______________________________________________________________________________________________________________________________________________________
 23. How do you select all links within a div with the class of sidebar?
+Ans. All links within a div with the class of sidebar will be selected by specifying 'div .sidebar a'
+____________________________________________________________________________________________________________________________________________________
 24. What is a pseudo selector?
 25. What do we use the change the spacing between lines?
 26. What do we use to change the spacing between letters?
