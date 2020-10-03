@@ -175,10 +175,18 @@ Ans. The steps in Lambda's git flow are as below:
 The above description encompasses all steps involved in Lambda's git flow according to my understanding and experience so far. 
 _____________________________________________________________________________________________________________________________________________________________
 
-Stretch Questions
+STRETCH QUESTIONS:
 
 1. What is the difference between an inline element and a block element?
+Ans. Inline elements do not start on a new line and they take up only as much width as required. 
+Examples of inline elements are anchor tags, span, button, strong and em.
+Block elements always start on a new line and take up the full available width. Examples of block elements are div, p, ul, li, footer, header etc. 
+--------------------------------------------------------------------------------------------------- 
 2. What happens when an element is positioned absolutely? 
+Ans. position property is applied in CSS to position an element absolutely. Alongside position property, values are supplied for various positioning
+attributes such as top, right, bottom and left which will help specify where the element should be placed in relation to its immediate parent. 
+---------------------------------------------------------------------------------------------------
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
