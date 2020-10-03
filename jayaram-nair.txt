@@ -158,7 +158,22 @@ Ans. We would simply type 'git push -u origin master' if we want to push it to t
 But if we are working on the branch, we would simply type 'git push -u branch_name'.
 _________________________________________________________________________________________________________________________________________________________
 37. Walk me through Lambda's git flow. 
-Ans. 
+Ans. The steps in Lambda's git flow are as below:
+(a) Fork the repository so that it now shows up a repository under my GitHub profile. 
+(b) Click on the green button which says 'Code' then dropdown to select the link for cloning a copy of the repository on my device. 
+(c) cd into the folder where the repository needs to be cloned and type the command 'git clone' + copied link on the command line. 
+(d) Once successfully cloned, cd into the repository. 
+(e) We can start making changes to the repository either by adding, modifying or deleting files. 
+(f) After each significant change, we would type 'git add .' which would add any changes made in the current directory before they can be committed. 
+(g) After adding the changes, we need to commit those changes by typing 'git commit -m "meaningful message" ' which will help explain what the change is.
+(h) After committing the changes we can push those changes to the remote repository stored on github where these changes will be incorporated. 
+(i) We need to make periodic 'git add' , 'git commit' and 'git push' to the remote repository as changes are made to the project files. 
+(j) Once we finish working on these files, we need to select the branch-name instead of master from the dropdown and click new pull request to create a pull request. 
+(k) After the pull request page opens up, we need to select our name from the dropdown instead of the forked repository. 
+(l) After making this selection from the dropdown, we can add reviewers, if there are any, and finish creating the pull request. 
+
+The above description encompasses all steps involved in Lambda's git flow according to my understanding and experience so far. 
+_____________________________________________________________________________________________________________________________________________________________
 
 Stretch Questions
 
