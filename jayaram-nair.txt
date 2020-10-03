@@ -1,0 +1,197 @@
+LINK TO CODEPEN:
+https://codepen.io/jayaramnair/full/VwaovLB
+
+1. What is Semantic HTML? 
+Ans. Semantic HTML involves use of tags which breaks up the webpage into meaningful sections such as heading, navigation menu,
+main content, address/contact information and footer. Use of semantic HTML helps convey meaningful information to the browsers.
+_________________________________________________________________________________________________________________________________
+
+2. What is HTML used for?
+Ans. HTML is used to incorporate/embed content into a webpage such as text, video, images and audio. 
+_________________________________________________________________________________________________________________________________
+
+3. What is an attribute and where do we put it? 
+Ans. Attributes provide additional information concerning the elements. Attributes are included in name/value pair format such as
+name="value". Some examples of attributes are: src attribute, in case of image, which specifies location of the image. href attribute, 
+in case of anchor tag, which specifies which website should be opened when the tag is clicked.
+_________________________________________________________________________________________________________________________________
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+Ans. h1 tag is used for main heading of the webpage such as blog name or company name. Ideally, only one h1 tag should be used per webpage.
+__________________________________________________________________________________________________________________________________
+
+5. Name two tags that have required attributes
+Ans. a tag and img tag have required attributes. 
+img tag requires two attributes which are src and alt. src specifies location of the image and 
+alt provides a description of the image which can be read by screen readers.
+
+a tag requires href attribute which upon clicking takes us to the destination url. 
+_____________________________________________________________________________________________________________________________________
+
+6. What do we put in the head of our HTML document? 
+Ans. Elements which are usually included in the head tag are title, meta tag which provides information regarding the character section
+and link tag which links to the stylesheets used for styling/designing the webpage.
+
+_______________________________________________________________________________________________________________________________________
+7. What is an id? 
+Ans. id attribute is used within the start tag for assigning a unique identification to an HTML element. 
+It is used either for styling an element using CSS or manipulating an element using JavaScript. 
+________________________________________________________________________________________________________________________________________ 
+8. What elements can I add an id to? 
+Ans. An id can be added to any HTML element however there can be only one id per webpage.
+
+________________________________________________________________________________________________________________________________
+9. How many times can I use the same id on a page? 
+Ans. An id can be used/assigned only once per webpage.
+_____________________________________________________________________________________________________________________________________
+10. What is a class? 
+Ans. A class is used to provide an identification to a HTML element or a group of related HTML elements. 
+This class can thus be used by CSS for styling or by Javascript for manipulation. 
+_________________________________________________________________________________________________________________________________
+11. What elements can I add a class to? 
+Ans. classes can be added to any elements within the body of a HTML document. 
+__________________________________________________________________________________________________________________________
+12. How many times can I use the same class on a page? 
+Ans. There is no limit to the times for usage of the same class within a HTML document. 
+____________________________________________________________________________________________________________
+13. How do I get my link to open in a new tab?
+Ans. Adding the attribute "target="_blank" to the anchor tag will open the link in a new tab.
+________________________________________________________________________________________________________________________________________
+14. What is the alt attribute in the image tag used for? 
+Ans. The alt attribute in the image tag is used for providing alternate description for the image if the image cannot be displayed or in the event 
+when the web user uses a screen reader. 
+_____________________________________________________________________________________________________________________
+15. How do I reference an id?
+Ans. An id is referenced by using the hash(#) symbol immediately before the id name. 
+____________________________________________________________________________________________________________________
+16. What is the difference between a section and a div
+Ans. section is a semantic html tag. It conveys more information since it is used to group the main content on a webpage 
+whereas div does not provide any valuable information.
+______________________________________________________________________________________________________________________
+17. What is CSS used for? 
+Ans. CSS stands for Cascading Style Sheets. It is used to style the webpage by applying properties to the elements such as background-color, 
+color(used to text), border, margin etc. 
+___________________________________________________________________________________________________________________________
+18. How to we select an element? Example - every h2 on the page
+Ans. We select an element by simplying specifying the element name such as h2, p, img, a followed by curly braces {}.
+Within curly braces, we would specify the properties along with corresponding values which need to applied to the said element. 
+____________________________________________________________________________________________________________________________
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Ans. Classes are NOT UNIQUE and thus they can be applied to multiple elements in a document whereas an id is unique. We can only specify one id
+per document. Classes are usually used for styling the elements using CSS whereas id is usually used for manipulating the elements using JavaScript.
+We can use a class like "container" which can then be selected using .container in css for applying background or margin. 
+We can use a id like "navigation" which can then be applied to a nav element and used by javascript for manipulating it. 
+_____________________________________________________________________________________________________________________________
+
+20. How do we select classes in CSS?
+Ans. Classes can be selected in CSS by preceding the class name by a period. For example, if there is a class called "container". It can be 
+selected in CSS by specifying .container
+_____________________________________________________________________________________________________________________________
+21. How do we select a p element with a single class of “human””?
+Ans. We can select a p element with a class of "human" by specifying [p .human] Note: square brackets are not be included while selecting the element.
+______________________________________________________________________________________________________________________________
+22. What is a parent child selector? When would this be useful? 
+Ans. 'parent > child' selector is used for selecting only elements which are direct children of the said parent. This helps us be more specific and apply
+the style to only direct descendants but not descendants further down the tree such as grand-children.
+
+<div>
+    <a href="index.html"></a>
+    <ul>
+        <li><a href="home.html></a></li>
+        <li><a href="cookies.html></a></li>
+        <li><a href="cakes.html></a></li>
+    </ul>
+</div>
+
+In this case, div>a will only apply the styling to the 'a' tag which is the direct descendant of the div element and not to the 'a' tags enclosed within 
+the unordered list (ul) tag.
+______________________________________________________________________________________________________________________________________________________
+23. How do you select all links within a div with the class of sidebar?
+Ans. All links within a div with the class of sidebar will be selected by specifying 'div .sidebar a'
+____________________________________________________________________________________________________________________________________________________
+24. What is a pseudo selector?
+Ans. pseudo selector is used for selecting elements based on their specific state. Some popular pseudo selectors are :hover which styles the element
+when a mouse is hovered element the element. :visited which changed the style/appearance of a link after it is clicked. 
+____________________________________________________________________________________________________________________________________________________
+25. What do we use the change the spacing between lines?
+Ans. We can change the spacing between lines using the line-height property.
+____________________________________________________________________________________________________________________________________________________
+26. What do we use to change the spacing between letters?
+Ans. We can apply the letter-spacing property in css to change the spacing between letters. 
+__________________________________________________________________________________________________________________________________________________
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Ans. We can apply the text-transform property in css to change selected piece of text to uppercase, lowercase or capitalize (which capitalizes the first letter
+of each word)
+____________________________________________________________________________________________________________________________________________________
+28. How do I add a 1px border around my div that is dotted and black?
+Ans. We can add a "1px dotted black" border around div by specifying the property/value pair in CSS as 'border : 1px dotted black'
+_____________________________________________________________________________________________________________________________________________________
+29. How do I select everything on the page? 
+Ans. Everything on the page can be select by using the universal selector which is an asterisk(*)
+__________________________________________________________________________________________________________________________________________________
+30. How do I write a comment in CSS?
+Ans. Comments can be written in CSS by enclosing the comments between /* */. Thus, the comments will be preceeded by /* and ended with */
+_________________________________________________________________________________________________________________________________________________
+31. How do I find out what file I am in, when I am using the command line? 
+Ans. Typing pwd on the command line will display path to the directory that I am currently working in.
+_________________________________________________________________________________________________________________________________________________
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Ans. Typing ls on the command line will list all the files/folders in my current directory. However, typing 'ls -la' will provide much detailed information
+regarding the files in my directory such as read/write access, date of last modification, size of the file/folder etc.
+__________________________________________________________________________________________________________________________________________________
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Ans. Typing 'rm file_name' will remove the specified file. We need to be careful because once the said file has been deleted, we cannot recover it.
+___________________________________________________________________________________________________________________________________________
+34. Why should I use version control? 
+Ans. Version control has several important benefits. Benefits are as below:
+(a) Collaboration - It allows multiple team members to work on the same file without any conflict. Any changes thus made can be merged at a later stage.
+(b) Multiple Versions - It saves multiple versions of files during project development. Thus, it keeps track of changes which were made between each version.
+(c) Restoring Work - If we mess up our work then we can easily identify a point to which we would like to go back and start again. 
+(d) Backup - It serves as a backup thus if anything were to happen to the project files stored on the remote repository, we can easily recover the work from 
+copies stored on members' local repositories. 
+_____________________________________________________________________________________________________________________________________________________
+35. How often should I commit to github?
+Ans. As a beginner, we should make commits whenever we make any change to the project file even if its a small change such as fixing a typo. 
+______________________________________________________________________________________________________________________________________________________
+36. What is the command we would use to push our repo up to github?
+Ans. We would simply type 'git push -u origin master' if we want to push it to the master. 
+But if we are working on the branch, we would simply type 'git push -u branch_name'.
+_________________________________________________________________________________________________________________________________________________________
+37. Walk me through Lambda's git flow. 
+Ans. The steps in Lambda's git flow are as below:
+(a) Fork the repository so that it now shows up a repository under my GitHub profile. 
+(b) Click on the green button which says 'Code' then dropdown to select the link for cloning a copy of the repository on my device. 
+(c) cd into the folder where the repository needs to be cloned and type the command 'git clone' + copied link on the command line. 
+(d) Once successfully cloned, cd into the repository. 
+(e) We can start making changes to the repository either by adding, modifying or deleting files. 
+(f) After each significant change, we would type 'git add .' which would add any changes made in the current directory before they can be committed. 
+(g) After adding the changes, we need to commit those changes by typing 'git commit -m "meaningful message" ' which will help explain what the change is.
+(h) After committing the changes we can push those changes to the remote repository stored on github where these changes will be incorporated. 
+(i) We need to make periodic 'git add' , 'git commit' and 'git push' to the remote repository as changes are made to the project files. 
+(j) Once we finish working on these files, we need to select the branch-name instead of master from the dropdown and click new pull request to create a pull request. 
+(k) After the pull request page opens up, we need to select our name from the dropdown instead of the forked repository. 
+(l) After making this selection from the dropdown, we can add reviewers, if there are any, and finish creating the pull request. 
+
+The above description encompasses all steps involved in Lambda's git flow according to my understanding and experience so far. 
+_____________________________________________________________________________________________________________________________________________________________
+
+STRETCH QUESTIONS:
+
+1. What is the difference between an inline element and a block element?
+Ans. Inline elements do not start on a new line and they take up only as much width as required. 
+Examples of inline elements are anchor tags, span, button, strong and em.
+Block elements always start on a new line and take up the full available width. Examples of block elements are div, p, ul, li, footer, header etc. 
+--------------------------------------------------------------------------------------------------- 
+2. What happens when an element is positioned absolutely? 
+Ans. position property is applied in CSS to position an element absolutely. Alongside position property, values are supplied for various positioning
+attributes such as top, right, bottom and left which will help specify where the element should be placed in relation to its immediate parent. 
+---------------------------------------------------------------------------------------------------
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+----------------------------------------------------------------------------------------------------
+4. Name 3 elements that are displayed block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Ans. 3 elements which are displayed block by default are headings (i.e. h1 to h6), div elements and p elements
+2 elements which are displayed inline by default are strong and em tags
+There are no elements which are displayed inline-block by default. We need to provide the value 'inline-block' to 'display' property 
+in order to make them display as inline-block.
+--------------------------------------------------------------------------------------------------------------
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
