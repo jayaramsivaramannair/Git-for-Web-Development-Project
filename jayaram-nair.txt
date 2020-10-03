@@ -77,7 +77,16 @@ Ans. We select an element by simplying specifying the element name such as h2, p
 Within curly braces, we would specify the properties along with corresponding values which need to applied to the said element. 
 ____________________________________________________________________________________________________________________________
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Ans. Classes are NOT UNIQUE and thus they can be applied to multiple elements in a document whereas an id is unique. We can only specify one id
+per document. Classes are usually used for styling the elements using CSS whereas id is usually used for manipulating the elements using JavaScript.
+We can use a class like "container" which can then be selected using .container in css for applying background or margin. 
+We can use a id like "navigation" which can then be applied to a nav element and used by javascript for manipulating it. 
+_____________________________________________________________________________________________________________________________
+
 20. How do we select classes in CSS?
+Ans. Classes can be selected in CSS by preceding the class name by a period. For example, if there is a class called "container". It can be 
+selected in CSS by specifying .container
+_____________________________________________________________________________________________________________________________
 21. How do we select a p element with a single class of “human””?
 22. What is a parent child selector? When would this be useful? 
 23. How do you select all links within a div with the class of sidebar?
