@@ -42,6 +42,8 @@ Ans. An id can be added to any HTML element however there can be only one id per
 
 ________________________________________________________________________________________________________________________________
 9. How many times can I use the same id on a page? 
+Ans. An id can be used/assigned only once per webpage.
+_____________________________________________________________________________________________________________________________________
 10. What is a class? 
 11. What elements can I add a class to? 
 12. How many times can I use the same class on a page? 
