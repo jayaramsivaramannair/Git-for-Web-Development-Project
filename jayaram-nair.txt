@@ -55,7 +55,12 @@ ________________________________________________________________________________
 Ans. There is no limit to the times for usage of the same class within a HTML document. 
 ____________________________________________________________________________________________________________
 13. How do I get my link to open in a new tab?
+Ans. Adding the attribute "target="_blank" to the anchor tag will open the link in a new tab.
+________________________________________________________________________________________________________________________________________
 14. What is the alt attribute in the image tag used for? 
+Ans. The alt attribute in the image tag is used for providing alternate description for the image if the image cannot be displayed or in the event 
+when the web user uses a screen reader. 
+_____________________________________________________________________________________________________________________
 15. How do I reference an id?
 16. What is the difference between a section and a div
 17. What is CSS used for? 
