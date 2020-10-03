@@ -124,8 +124,14 @@ Ans. We can apply the text-transform property in css to change selected piece of
 of each word)
 ____________________________________________________________________________________________________________________________________________________
 28. How do I add a 1px border around my div that is dotted and black?
+Ans. We can add a "1px dotted black" border around div by specifying the property/value pair in CSS as 'border : 1px dotted black'
+_____________________________________________________________________________________________________________________________________________________
 29. How do I select everything on the page? 
+Ans. Everything on the page can be select by using the universal selector which is an asterisk(*)
+__________________________________________________________________________________________________________________________________________________
 30. How do I write a comment in CSS?
+Ans. Comments can be written in CSS by enclosing the comments between /* */. Thus, the comments will be preceeded by /* and ended with */
+_________________________________________________________________________________________________________________________________________________
 31. How do I find out what file I am in, when I am using the command line? 
 32. Using the command line - how do I see a list of files/folders in my current folder?
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
