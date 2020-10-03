@@ -133,8 +133,15 @@ ________________________________________________________________________________
 Ans. Comments can be written in CSS by enclosing the comments between /* */. Thus, the comments will be preceeded by /* and ended with */
 _________________________________________________________________________________________________________________________________________________
 31. How do I find out what file I am in, when I am using the command line? 
+Ans. Typing pwd on the command line will display path to the directory that I am currently working in.
+_________________________________________________________________________________________________________________________________________________
 32. Using the command line - how do I see a list of files/folders in my current folder?
+Ans. Typing ls on the command line will list all the files/folders in my current directory. However, typing 'ls -la' will provide much detailed information
+regarding the files in my directory such as read/write access, date of last modification, size of the file/folder etc.
+__________________________________________________________________________________________________________________________________________________
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Ans. Typing 'rm file_name' will remove the specified file. We need to careful because one the said file has been deleted, we cannot recover it.
+___________________________________________________________________________________________________________________________________________
 34. Why should I use version control? 
 35. How often should I commit to github?
 36. What is the command we would use to push our repo up to github? 
