@@ -110,9 +110,19 @@ ________________________________________________________________________________
 Ans. All links within a div with the class of sidebar will be selected by specifying 'div .sidebar a'
 ____________________________________________________________________________________________________________________________________________________
 24. What is a pseudo selector?
+Ans. pseudo selector is used for selecting elements based on their specific state. Some popular pseudo selectors are :hover which styles the element
+when a mouse is hovered element the element. :visited which changed the style/appearance of a link after it is clicked. 
+____________________________________________________________________________________________________________________________________________________
 25. What do we use the change the spacing between lines?
+Ans. We can change the spacing between lines using the line-height property.
+____________________________________________________________________________________________________________________________________________________
 26. What do we use to change the spacing between letters?
+Ans. We can apply the letter-spacing property in css to change the spacing between letters. 
+__________________________________________________________________________________________________________________________________________________
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Ans. We can apply the text-transform property in css to change selected piece of text to uppercase, lowercase or capitalize (which capitalizes the first letter
+of each word)
+____________________________________________________________________________________________________________________________________________________
 28. How do I add a 1px border around my div that is dotted and black?
 29. How do I select everything on the page? 
 30. How do I write a comment in CSS?
